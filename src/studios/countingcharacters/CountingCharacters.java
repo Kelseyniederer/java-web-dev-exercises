@@ -26,7 +26,7 @@ public class CountingCharacters {
          }
 
         for (Map.Entry<Character, Integer> entry: charCountsMap.entrySet()) {
-            System.out.println("Count for: " + entry.getKey() + " is " + entry.getValue());
+            System.out.println("Count for: " + entry.getKey() + ": " + entry.getValue());
         }
 
 
